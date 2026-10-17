@@ -21,3 +21,20 @@
 .aplayer .aplayer-info .aplayer-controller .aplayer-time .aplayer-icon {
     color: #333333 !important;
 }
+
+/* 固定播放器：确保曲目信息区完整可见 */
+.aplayer.aplayer-fixed .aplayer-info {
+    display: block !important;
+    transform: none !important;
+    -webkit-transform: none !important;
+}
+.aplayer.aplayer-fixed .aplayer-music {
+    opacity: 1 !important;
+}
+.aplayer.aplayer-fixed .aplayer-title,
+.aplayer.aplayer-fixed .aplayer-author {
+    color: #333333 !important;
+    opacity: 1 !important;
+    display: inline !important;
+}
+
