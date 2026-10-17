@@ -38,3 +38,32 @@
     display: inline !important;
 }
 
+/* 兜底：压过暗色模式与外部继承 */
+.aplayer,
+.aplayer-body,
+.aplayer-info {
+    background: #ffffff !important;
+    color: #333333 !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+.aplayer-info {
+    display: block !important;
+    transform: none !important;
+    -webkit-transform: none !important;
+}
+.aplayer-music {
+    width: auto !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+.aplayer-title,
+.aplayer-author,
+.aplayer-time,
+.aplayer-list {
+    color: #333333 !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+
