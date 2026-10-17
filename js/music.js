@@ -1,10 +1,10 @@
 window.addEventListener('load', function() {
   var ap = new APlayer({
     container: document.getElementById('my-aplayer'),
-    fixed: false,
+    fixed: true,
     mini: false,
     listFolded: true,
-    preload: 'none',
+    preload: 'metadata',
     loop: 'one',
     mutex: false,
     audio: [{
