@@ -4,6 +4,7 @@ window.addEventListener('load', function() {
     fixed: true,
     mini: true,
     listFolded: true,
+    preload: 'none',
     loop: 'one',
     mutex: false,
     audio: [{
