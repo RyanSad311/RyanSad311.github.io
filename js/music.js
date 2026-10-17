@@ -1,7 +1,7 @@
 window.addEventListener('load', function() {
   var ap = new APlayer({
     container: document.getElementById('my-aplayer'),
-    fixed: true,
+    fixed: false,
     mini: false,
     listFolded: true,
     preload: 'none',
